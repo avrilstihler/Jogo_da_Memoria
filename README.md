@@ -2,11 +2,11 @@
 
 Um jogo da memória encantador, inspirado no estilo aconchegante de **Stardew Valley**, onde os cartões são pequenas mudas que escondem frutas deliciosas. Vire, combine e pontue!
 
-![Demonstração do jogo](./demonstracao.gif)
+![Demonstração do jogo](./demonstracao2.gif)
 
 ## 🔗 Acesse o jogo
 
-👉 [Jogar agora!](https://seu-link-aqui.com)
+👉 [Jogar agora!](https://avrilstihler.github.io/Jogo_da_Memoria/)
 
 ## 🎮 Funcionalidades
 
