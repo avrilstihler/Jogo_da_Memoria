@@ -1,4 +1,4 @@
-# 🌱🍓 Jogo da Memória - Edição Pixel Art
+# 🌱🍓 Jogo da Memória 
 
 Um jogo da memória encantador, inspirado no estilo aconchegante de **Stardew Valley**, onde os cartões são pequenas mudas que escondem frutas deliciosas. Vire, combine e pontue!
 
