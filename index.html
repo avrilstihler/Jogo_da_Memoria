@@ -1,0 +1,53 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+    {
+        "imports": {
+            "canvas-confetti": "https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.module.mjs"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div id="start-screen" class="screen active">
+        <h1>Jogo da Memória</h1>
+        <div class="menu-buttons">
+            <button id="solo-btn" class="btn">Jogar Sozinho</button>
+            <button id="vs-player-btn" class="btn">Contra Outro Jogador</button>
+        </div>
+    </div>
+
+    <div id="game-screen" class="screen">
+        <div id="game-info">
+            <div id="player1-info" class="player-score-display">
+                <span>Jogador 1: </span><span id="player1-score">0</span>
+            </div>
+            <div id="turn-indicator">Turno do Jogador 1</div>
+            <div id="player2-info" class="player-score-display">
+                <span>Jogador 2: </span><span id="player2-score">0</span>
+            </div>
+            <div id="solo-moves-info" class="solo-info-display">
+                <span>Movimentos: </span><span id="solo-moves">0</span>
+            </div>
+        </div>
+        <div id="game-board">
+            <!-- Cards will be generated here by JavaScript -->
+        </div>
+        <button id="main-menu-game-btn" class="btn btn-secondary">Voltar ao Menu</button>
+    </div>
+
+    <div id="end-screen" class="screen">
+        <h2 id="winner-message">Parabéns!</h2>
+        <div class="menu-buttons">
+            <button id="play-again-btn" class="btn">Jogar Novamente</button>
+            <button id="main-menu-end-btn" class="btn btn-secondary">Menu Principal</button>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
