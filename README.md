@@ -23,10 +23,6 @@ Um jogo da memória encantador, inspirado no estilo aconchegante de **Stardew Va
 * CSS3
 * JavaScript Vanilla (puro)
 
-## 💡 Sobre o projeto
-
-Um jogo da memória digital criado para ser leve, divertido e visualmente acolhedor. Ideal para jogar sozinho ou competir com amigos, enquanto aprecia o charme do pixel art e o clima tranquilo de um jardim cheio de frutas.
-
 ## 📜 Licença
 
 Este projeto é de código aberto e está licenciado sob a [MIT License](LICENSE).
